@@ -23,7 +23,7 @@ const checkForCurrentGuilds = (bot) => {
 module.exports = (bot, settings) => {
   const header = '---------------------------------------------------------';
 
-  bot.user.setPresence({ game: { name: `@ping me | ${settings.prefix}help`, type: 0 } });
+  bot.user.setPresence({ game: { name: `Check out #lfg-tutorial`, type: 0 } });
   checkForCurrentGuilds(bot);
 
   console.log(header);
